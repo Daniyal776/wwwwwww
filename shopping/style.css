@@ -1,0 +1,178 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.navbar{
+    position: fixed;
+    height: 80px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+   padding-right: 5px;
+ width: 100%;
+ justify-content: space-evenly;
+
+ 
+}
+.logo{
+    flex-grow: 1.7;
+    border-radius:100%;
+    padding-left: 15px;
+    padding-top: 5px;
+    
+    
+}
+
+.navbar >.logo > img{
+    height: 70px;
+    width: auto;
+   margin-top: 2px;
+   margin-left: 0px;
+  border-radius: 2.5em; 
+  justify-content: left;
+}
+li{
+    display: inline-block;
+    color: rgb(251, 251, 251);
+   list-style-type: none;
+    width: 80px;
+    text-size-adjust:5px ;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif ;
+    cursor: pointer;
+    text-transform:inherit;
+    position: relative;
+    
+ 
+    
+    
+    /*<li class="icon"><i class="fa-solid fa-cart-shopping"></i></li>
+                <li class="icon"><i class="fa-solid fa-magnifying-glass"></i></li>*/
+}
+li>a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+  
+.heading>li>a:after{
+content: '';
+height: 4px;
+width: 100%;
+background-color: rgb(245, 242, 21);
+
+left: 0;
+bottom: 0;
+}
+    
+li>a:hover{
+    color: rgb(245, 242, 21);
+}
+li:hover{
+    color: rgb(245, 242, 21);
+}
+.img{
+    background-image: url(images/web22.jpg);
+    width: 100%;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img>h1{
+    align-items: center;
+    font-size: 40px;
+    padding: 120px;
+    padding-left: 50%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.img>p{
+    font-size: 25px;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    padding-left: 50%;
+   margin-bottom: 30px;
+}
+
+
+button a{
+    color: rgb(26, 26, 25) ;
+   position: relative; 
+   background-color:rgb(238, 241, 235) ;
+  height: 30px;
+  width: auto;
+ border-color: black;
+   font-family: serif;
+   font-size: 20px;
+   cursor: pointer;
+  
+  
+
+}
+button a{
+    color: rgb(21, 21, 21);
+    text-decoration: none;
+    
+}
+
+button a:hover{
+    color:rgb(145, 138, 138);
+   
+}
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+  }
+  
+  .facebook {
+    background: #3b5998;
+    color: white;
+  }
+  
+  .twitter {
+    background: #55acee;
+    color: white;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  } 
+  /* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }  
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+foot{
+  margin: 5px;
+}
+
+
